@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HeroVerseFX - Hero Movie Clips</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0b0c10;
+      color: #ffffff;
+    }
+
+    header {
+      background: #1f2833;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #66fcf1;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #c5c6c7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #66fcf1;
+    }
+
+    main {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .video-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #1f2833;
+      text-align: center;
+      color: #45a29e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HeroVerseFX</h1>
+    <nav>
+      <a href="#clips">Clips</a>
+      <a href="#about">About</a>
+      <a href="https://www.youtube.com/@HeroVerseFX" target="_blank">YouTube</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="clips">
+      <h2>🔥 Latest Hero Clips</h2>
+      <div class="video-section">
+        <!-- Add your video clips -->
+        <iframe src="https://www.youtube.com/embed/your_video_id1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/your_video_id2" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/your_video_id3" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top: 3rem;">
+      <h2>🦸 About HeroVerseFX</h2>
+      <p>
+        Welcome to <strong>HeroVerseFX</strong> — your destination for the most legendary and epic movie clips from your favorite superheroes! Subscribe and join the heroverse.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 HeroVerseFX | Created by Mr. J
+  </footer>
+</body>
+</html>
